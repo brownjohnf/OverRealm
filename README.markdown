@@ -1,6 +1,10 @@
 [![Inline docs](http://inch-ci.org/github/brownjohnf/OverRealm.svg?branch=master)](http://inch-ci.org/github/brownjohnf/OverRealm)
 
+[![Dependency Status](https://gemnasium.com/brownjohnf/OverRealm.svg)](https://gemnasium.com/brownjohnf/OverRealm)
 
+[![Code Climate](https://codeclimate.com/github/brownjohnf/OverRealm/badges/gpa.svg)](https://codeclimate.com/github/brownjohnf/OverRealm)
+
+[![Test Coverage](https://codeclimate.com/github/brownjohnf/OverRealm/badges/coverage.svg)](https://codeclimate.com/github/brownjohnf/OverRealm/coverage)
 
 == README
 
