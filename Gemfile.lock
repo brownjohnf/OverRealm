@@ -67,6 +67,9 @@ GEM
     execjs (2.5.2)
     ffi (1.9.8)
     formatador (0.2.5)
+    foundation-rails (5.5.2.1)
+      railties (>= 3.1.0)
+      sass (>= 3.3.0, < 3.5)
     globalid (0.3.5)
       activesupport (>= 4.1.0)
     guard (2.12.5)
@@ -222,6 +225,7 @@ DEPENDENCIES
   byebug
   coffee-rails (~> 4.1.0)
   devise
+  foundation-rails
   guard
   guard-rspec
   haml
