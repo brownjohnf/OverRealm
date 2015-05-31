@@ -1,4 +1,9 @@
+[![Inline docs](http://inch-ci.org/github/brownjohnf/OverRealm.svg?branch=master)](http://inch-ci.org/github/brownjohnf/OverRealm)
+
+
+
 == README
+
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
