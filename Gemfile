@@ -54,4 +54,5 @@ group :test do
   gem 'guard'
   gem 'guard-rspec'
   gem 'coveralls', require: false
+  gem 'codeclimate-test-reporter', require: nil
 end
