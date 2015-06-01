@@ -23,7 +23,7 @@
           </section>
 
           <section class="middle tab-bar-section">
-            <h1 class="title">Foundation</h1>
+            <h1 class="title">OverRealm</h1>
           </section>
 
 
@@ -42,9 +42,8 @@
 
         <aside class="left-off-canvas-menu">
           <ul class="off-canvas-list">
-            <li><label>Foundation</label></li>
+            <li><label>Go To</label></li>
             <li><a href="#">The Psychohistorians</a></li>
-            <li><a href="#">...</a></li>
           </ul>
         </aside>
 
@@ -60,6 +59,16 @@
         <section class="main-section">
           <!-- content goes here -->
           <%= yield %>
+          <div class="row">
+            <div class="small-12 columns">
+              <p class="text-center">
+                &copy; 2015
+                <% if admin_user_signed_in? %>
+                  | admin user: <%= current_admin_user.email %>
+                <% end %>
+              </p>
+            </div>
+          </div>
         </section>
 
         <a class="exit-off-canvas"></a>
