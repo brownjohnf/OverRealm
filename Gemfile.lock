@@ -43,6 +43,7 @@ GEM
     builder (3.2.2)
     byebug (5.0.0)
       columnize (= 0.9.0)
+    cancan (1.6.10)
     celluloid (0.16.0)
       timers (~> 4.0.0)
     codeclimate-test-reporter (0.4.7)
@@ -254,6 +255,7 @@ PLATFORMS
 
 DEPENDENCIES
   byebug
+  cancan
   codeclimate-test-reporter
   coffee-rails (~> 4.1.0)
   coveralls
