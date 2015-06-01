@@ -29,6 +29,7 @@ gem 'haml'
 gem 'foundation-rails'
 gem 'puma'
 gem 'activeadmin', github: 'activeadmin'
+gem 'neo4j'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
