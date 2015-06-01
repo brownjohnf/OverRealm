@@ -5,6 +5,7 @@
 [![Code Climate](https://codeclimate.com/github/brownjohnf/OverRealm/badges/gpa.svg)](https://codeclimate.com/github/brownjohnf/OverRealm)
 
 [![Test Coverage](https://codeclimate.com/github/brownjohnf/OverRealm/badges/coverage.svg)](https://codeclimate.com/github/brownjohnf/OverRealm/coverage)
+[![Coverage Status](https://coveralls.io/repos/brownjohnf/OverRealm/badge.svg)](https://coveralls.io/r/brownjohnf/OverRealm)
 
 == README
 
