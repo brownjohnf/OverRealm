@@ -1,0 +1,7 @@
+test:
+  user: postgres
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  database: OverRealm_test
+
