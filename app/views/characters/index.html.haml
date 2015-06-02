@@ -1,0 +1,11 @@
+.row
+  .column.small-12
+    %h1
+      Characters
+      - if @house.present?
+        %small
+          of house
+          = @house
+    %ul
+      - @characters.each do |c|
+        %li= link_to c.name, c

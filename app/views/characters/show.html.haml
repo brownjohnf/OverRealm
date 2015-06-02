@@ -1,0 +1,19 @@
+.row
+  .column.small-12
+    %h1= @character.name
+.row
+  .small-12.columns
+    %dl
+      %dt Place of Birth
+      %dd= link_to @character.born_in.name, @character.born_in
+      %dt House
+      %dd= link_to @character.house, characters_path(house: @character.house)
+    %h4
+      Other characters from
+      = link_to @character.born_in.name, @character.born_in
+    %ul
+      - if @character.born_in.birthplace_of(:c).where("c.id <> '#{@character.id}'").each do |c|
+        %li= link_to c.name, c
+      - end.empty?
+        %li none
+
